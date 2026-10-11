@@ -1,43 +1,24 @@
 # ZG ZoneCrates
 
-## English
-
-Custom crates, keys and configurable reward tiers. Minecraft 1.20.1 / Forge 47.x.
-
-### Installation
-
-Install the release JAR on every side required by its file metadata. Do not install development or test JARs. Required mod dependencies shown by current source metadata: **ZoneCore**. Check the dependency version range of the exact uploaded file before installation.
-
-### Configuration
-
-Edit generated TOML files while the server or game is stopped unless a documented reload command is available. Back up persistent data before updates.
-
-| Config file | Use |
-|---|---|
-| `zonecrates-common.toml` | Verify the exact generated path and options for the selected release. |
-| `zonecrates/crates/tiers_y_premios.toml` | Verify the exact generated path and options for the selected release. |
-
-See [configuration reference](CONFIGURATION.md) for keys detected in source and [release compatibility](RELEASES.md) for version-pair rules.
+Minecraft 1.20.1 · Forge 47.x · version 2.0.6 · © Elgochogms
 
 ## Español
 
-Cajas, llaves y niveles de premios configurables. Minecraft 1.20.1 / Forge 47.x.
+ZoneCrates añade siete niveles de cajas, llaves, premios con pesos configurables y la billetera virtual de GodieCoins que usan otros mods ZONE. Su JAR es **universal**: instala el mismo archivo en servidor y clientes. Requiere ZoneCore 2.x en el servidor. ZoneGuardian puede integrar permisos de uso en regiones; no es una dependencia obligatoria declarada por ZoneCrates.
 
-### Instalación
+El administrador puede abrir `/zonascreate editar`, listar los niveles con `/zonecrates config lista` y modificar esperas, pesos y premios con `/zonecrates config tier <nivel> ...`. Los jugadores usan `/zonecreate` si tienen `zonecrates.open`; la administración requiere `zonecrates.admin` u operador. Las llaves y cajas usan recursos visuales originales de ZONE.
 
-Instala el JAR de entrega en los lados indicados por sus metadatos. No instales JAR de desarrollo ni de pruebas. Dependencias obligatorias indicadas por los metadatos actuales: **ZoneCore**. Comprueba el rango de versión del archivo exacto que instales.
+Consulta [configuración y comandos](CONFIGURATION.md) y [entregas y compatibilidad](RELEASES.md). Haz una copia del mundo antes de cambiar JAR o datos persistentes.
 
-### Configuración
+## English
 
-Edita los TOML generados con el servidor o juego detenido, salvo que exista un comando de recarga documentado. Respalda los datos persistentes antes de actualizar.
+ZoneCrates adds seven crate tiers, keys, weighted rewards, and the virtual GodieCoin wallet used by other ZONE mods. Its JAR is **universal**: install the same file on server and clients. It requires ZoneCore 2.x on the server. ZoneGuardian may integrate protected-region use; it is not a declared required dependency of ZoneCrates.
 
-| Archivo de configuración | Uso |
-|---|---|
-| `zonecrates-common.toml` | Comprueba la ruta y opciones generadas de la entrega elegida. |
-| `zonecrates/crates/tiers_y_premios.toml` | Comprueba la ruta y opciones generadas de la entrega elegida. |
+Administrators can open `/zonascreate editar`, list tiers with `/zonecrates config lista`, and change cooldowns, weights and rewards with `/zonecrates config tier <tier> ...`. Players use `/zonecreate` with `zonecrates.open`; administration requires `zonecrates.admin` or operator access. Keys and crates use original ZONE visuals.
 
-Consulta la [referencia de configuración](CONFIGURATION.md) para claves detectadas en el código y la [compatibilidad de entregas](RELEASES.md) para las parejas de versiones.
+See [configuration and commands](CONFIGURATION.md) and [releases and compatibility](RELEASES.md). Back up world data before changing JARs or persistent data.
 
 ## Ownership / Titularidad
 
-Documentation and original ZONE visual assets © Elgochogms. This repository contains documentation and a project avatar only; it does not distribute mod source code, private mappings, server secrets or production configuration.
+Documentation and original ZONE visual assets © Elgochogms. This repository contains documentation and a project avatar; it does not distribute source code, private obfuscation maps, credentials or production configuration. New version 2.0.6 metadata is All Rights Reserved. Earlier MIT distributions retain the rights granted with those copies.
+
