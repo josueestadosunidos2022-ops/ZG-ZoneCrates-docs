@@ -8,9 +8,9 @@
 - New release metadata: author Elgochogms, All Rights Reserved. Original ZONE key texture replaces the earlier vanilla gold base texture. This does not revoke the license of older MIT copies.
 - Gradle clean build and ProGuard completed. The protected JAR started on an isolated Forge 47.4.10 / Java 17 server with protected ZoneCore 2.1.3; `/zonecrates config lista` returned seven tiers, `/zonecrates reload` responded, and shutdown was clean. A second startup with protected ZoneClans server 1.1.4 passed command registration and clean shutdown.
 - Client rendering, player wallet transactions, complete modpack, multiplayer, and production hosting have **not** been tested with this exact protected JAR. The three generated common TOML keys are currently inactive; see [configuration](CONFIGURATION.md).
-- CurseForge upload and moderation remain pending. This candidate is not yet a publicly downloadable release.
+- Uploaded as Beta CurseForge [file 9124573](https://authors.curseforge.com/#/projects/1738036/files/9124573) for **Client and Server**. Malware scan, moderation and public availability are pending.
 
 ## Español
 
-La versión 2.0.6 usa **un único JAR universal** en cliente y servidor. Requiere ZoneCore en el servidor. La compilación, ofuscación y dos pruebas de arranque/apagado aisladas terminaron bien; no equivalen a una prueba gráfica, de transacciones, modpack completo ni hosting. La carga en CurseForge sigue pendiente. Verifica el SHA-256 y respalda el mundo antes de instalarla.
+La versión 2.0.6 usa **un único JAR universal** en cliente y servidor. Requiere ZoneCore en el servidor. La compilación, ofuscación y dos pruebas de arranque/apagado aisladas terminaron bien; no equivalen a una prueba gráfica, de transacciones, modpack completo ni hosting. El archivo Beta 9124573 está cargado en CurseForge para ambos lados; falta la moderación y la disponibilidad pública. Verifica el SHA-256 y respalda el mundo antes de instalarla.
 
