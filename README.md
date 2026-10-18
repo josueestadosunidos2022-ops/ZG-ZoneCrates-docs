@@ -1,4 +1,4 @@
-# ZG ZoneCrates
+# ZoneCrates
 
 Minecraft 1.20.1 · Forge 47.x · version 2.0.6 · © Elgochogms
 
