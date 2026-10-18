@@ -1,4 +1,4 @@
-# ZG ZoneCrates — releases / entregas
+# ZoneCrates — releases / entregas
 
 ## 2.0.6 protected candidate / candidato protegido
 
