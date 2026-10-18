@@ -1,4 +1,4 @@
-# ZG ZoneCrates 2.0.6 — configuración / configuration
+# ZoneCrates 2.0.6 — configuración / configuration
 
 ## Español
 
