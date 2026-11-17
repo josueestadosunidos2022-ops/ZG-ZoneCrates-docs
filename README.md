@@ -1,10 +1,33 @@
 # ZoneCrates
 
+## 2.1.0-beta5 · Forge 1.20.1 · Java 17
+
+### Español
+
+La apertura virtual ahora presenta un ritual de llave y cofre 3D antes de la ruleta. El catálogo y editor tienen arte nuevo. Cada apertura usa una llave y entrega un solo premio.
+
+Usa el JAR universal en ambos lados. ZoneCore 2.x es obligatorio en el servidor. La animación se puede acortar cuando el servidor habilita saltarla.
+
+### English
+
+The virtual crate sequence now presents a 3D lock and key ritual before the roulette. The catalog and editor have new art. Opening still uses one key and a single reward.
+
+Use this universal JAR on both sides. ZoneCore 2.x is required on the server. The animation can be shortened when the server allows skipping.
+
+## Archivos de esta versión / Files for this version
+
+- [Universal](https://www.curseforge.com/minecraft/mc-mods/zonecrates/files/9671195)
+
+[Notas de versión / Release notes](RELEASE-2026-11-17.md)
+
+<details>
+<summary>Documentación de versiones anteriores / Earlier release documentation</summary>
+
 Seven physical reward coffers, matching physical or virtual keys, an administrator editor and the shared GodieCoin wallet.
 
 Siete cofres físicos de premios, llaves físicas o virtuales, editor administrativo y cartera compartida de GodieCoins.
 
-## Current release / Entrega actual — 2026-11-06
+## Historical notes · Current release / Entrega actual — 2026-11-06
 
 Minecraft **1.20.1**, Forge **47.x** (47.4.x for this release set), Java **17**. File availability follows CurseForge approval. / Disponibilidad de archivos según aprobación de CurseForge.
 
@@ -53,3 +76,5 @@ La entrega registra 174 comprobaciones de servidor, 131 de cliente, capturas rea
 ## Rights / Derechos
 
 Original ZONE code and assets © Elgochogms; existing licenses and third-party notices remain applicable. This repository provides public documentation. / Código y recursos originales ZONE © Elgochogms; se conservan licencias y avisos de terceros. Este repositorio contiene documentación pública.
+
+</details>
